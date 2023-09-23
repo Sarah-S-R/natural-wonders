@@ -1,28 +1,25 @@
-
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif
-
+    font-family: Arial, Helvetica, sans-serif
 }
 
-body{
+body {
     min-height: 100vh;
     background: url(/images/pei-yu-SsILMBrUJ3Y-unsplash.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 
-.header{
+.header {
     position: fixed;
-    top:0;
-    left:0;
-    width:100%;
+    top: 0;
+    left: 0;
+    width: 100%;
     padding: 20px 100px;
     background: transparent;
-     display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
@@ -30,7 +27,7 @@ body{
 
 .logo {
     font-size: 32px;
-    color:#fff;
+    color: #fff;
     text-decoration: none;
     font-weight: 700;
 }
@@ -43,12 +40,11 @@ body{
     text-decoration: none;
     margin-left: 40px;
     width: 0;
-
 }
 
 .navbar a::before {
-    content:'';
-    position:absolute;
+    content: '';
+    position: absolute;
     top: 100%;
     left: 0;
     width: 0;
@@ -58,13 +54,12 @@ body{
     opacity: 0;
 }
 
-.navbar a:hover::before{
+.navbar a:hover::before {
     width: 100%;
     opacity: 1;
-   
 }
 
-.search-bar{
+.search-bar {
     width: 250px;
     height: 35px;
     background: transparent;
@@ -72,37 +67,78 @@ body{
     border-radius: 6px;
     display: flex;
     align-items: center;
-
 }
 
-.search-bar input{
+.search-bar input {
     width: 100%;
     background: transparent;
-    border:none;
+    border: none;
     outline: none;
     font-size: 16px;
     color: #e4e4e4;
-    padding:10px;
+    padding: 10px;
 }
 
-.search-bar input::placeholder{
+.search-bar input::placeholder {
     color: #e4e4e4;
 }
 
-.search-bar button{
+.search-bar button {
     width: 40px;
     height: 100%;
-    background:transparent;
+    background: transparent;
     border: none;
     outline: none;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
 }
 
 .search-bar button i {
-        font-size: 22px;
-        color:#e4e4e4;
-        
+    font-size: 22px;
+    color: #e4e4e4;
 }
+
+
+.login button {
+    outline: none;
+    background: transparent;
+    border: 2px, solid #e4e4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    border-radius: 6px;
+    padding: 10px;
+    color: #e4e4e4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    
+}
+
+.register button {
+    background: transparent;
+    border: 1px, solid #e4e4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    border-radius: 6px;
+    padding: 10px;
+    color: #e4e4e4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    }
+
+    .login :hover{
+        background-color: rgb(13, 120, 227);
+    }
+
+    .register :hover{
+        background-color: rgb(13, 120, 227);
+    }
