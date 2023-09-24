@@ -28,6 +28,13 @@
     font-weight: 700;
     -webkit-text-stroke: .5px;
     -webkit-text-stroke-color: black;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.logo:hover{
+    color: #2b78a1;
+
 }
 
 .navbar a {
