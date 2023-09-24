@@ -105,10 +105,9 @@
     background-position: center;
     display: flex;
     align-items: center;
-    padding: 80px,100px 0;
     justify-content: space-between;
- 
-}
+    margin-top: 0;
+ }
 
 .home .content{
     max-width: 500px;
@@ -116,15 +115,15 @@
     color: #1e277a;
     font-weight: 600;
     margin-left: 200px;
-    
 }
 
 .content h2{
     font: 4em;
-    }
+   }
 
     .content p{
         margin: 10px 0 40px;
+        
     }
 
     .content a {
@@ -144,30 +143,24 @@
 
     .wrapper-login{
         color: black;
-        background-color: rgba(189, 189, 197, 0.5);
+        background-color: rgba(178, 178, 183, 0.75);
         background-size: cover;
         border: none;
         padding: 20px;
-        border-radius: 6px;
+        border-radius: 10px;
         align-content: center;
         text-align: center;
         font-size: 1rem;
         margin-right: 100px;
+        width:fit-content;
         
     }
 
-
-    .remember-forgot {
-        display:flex;
-        position: relative;
-        font-weight: 600;
-        text-decoration: none;
-    }
-
-    .remember-forgot checkbox{
-        border-radius: 6px;
-        padding:10px;
-        margin: 1px;
+    .input-box i{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
     }
 
     .input-box{
@@ -180,19 +173,18 @@
         padding: 10px;
         border-radius: 10px;
         font-weight: 700;
-        margin: 2px;
+        margin: 4px;
         justify-content: space-between;
         display: flex;
-        
+        align-items: center;
+        align-content: center;
     }
     
     .member-login input::placeholder {
         color: black;
-    }
-
-    .register-link p {
-        text-decoration: none;
-    }
+       
+    }        
+    
     .btn{
         background-color: transparent;
         outline:none;
@@ -204,25 +196,63 @@
         align-content: center;
         display: flex;
         cursor: pointer;    
-        
     }
 
     .btn :hover{
         background: #2b78a1;
         transition:0.5s;
     }
+
+    .register-link{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
  
-    .register-link a{
+    .register-link a { 
         text-decoration: none;
         font-size: 0.85rem;
+        font-weight: 700;
         padding: 2px;
+        display: flex;
+    }
+
+    .register-link p { 
+        text-decoration: none;
+        font-size: 0.85rem;
+        font-weight: 700;
+        padding: 2px;
+        display: flex;
     }
 
     .remember-forgot a{
         text-decoration: none;
         font-size: 0.85rem;
         padding: 2px;
+        z-index: 100;
+        display: flex;
+        font-weight: 700;
     }
-.icon{
-    align-items: center;
-}
+
+    .remember-forgot label{
+        text-decoration: none;
+        font-size: .85rem;
+        font-weight: 700;
+        padding: 2px;
+        z-index: 100;
+        display: flex;
+    }
+
+    .remember-forgot checkbox{
+        border-radius: 6px;
+        padding:10px;
+        margin: 2px;
+    }
+
+    .remember-forgot{
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        margin: 2px;
+        
+    }
