@@ -65,7 +65,7 @@
 }
 
 .search-bar {
-    width: 250px;
+    width: 300px;
     height: 35px;
     background: transparent;
     border: 2px solid #e4e4e4;
@@ -123,12 +123,14 @@
     margin-left: 140px;
     color: #1e277a;
     font-weight: 600;
-    margin-left: 200px;
+    margin-left: 150px;
+    margin-bottom: 110px;
+    line-height: 1.5;
 }
 
 .content h2{
-    font: 4em;
-   }
+    font-size: 2rem;
+}
 
     .content p{
         margin: 10px 0 40px;
