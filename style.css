@@ -9,14 +9,10 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('/images/pei-yu-SsILMBrUJ3Y-unsplash.jpg');
-    /* Replace with your image URL */
     background-size: cover;
-    background-position: center top;
-    min-height: 100vh;
-    /* Ensure the background covers at least the viewport height */
-    position: relative;
-
-}
+    background-position: center;
+  }
+    
 
 .header {
     position: fixed;
@@ -28,9 +24,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
     position: relative;
-}
+    }
 
 .logo {
     font-size: 2.5rem;
@@ -45,7 +40,6 @@ body {
 
 .logo:hover {
     color: #2b78a1;
-
 }
 
 .navbar a {
@@ -115,13 +109,17 @@ body {
     font-size: 22px;
     color: #e4e4e4;
 }
-
 .home {
+    min-height: 100vh;
     position: relative;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items:start;
     justify-content: space-between;
+    background-attachment: fixed;
+    background-position: center top;
+   margin-top: 100px;
+    
 }
 
 .content {
@@ -130,8 +128,9 @@ body {
     color: black;
     font-weight: 600;
     margin-left: 160px;
-    margin-bottom: 100px;
-    line-height: 1.5;
+    margin-top: 40;
+    margin-bottom: 100px
+    inline: height 1.5em;
 }
 
 .content h2 {
@@ -162,7 +161,6 @@ body {
 
     color: black;
     background-color: rgba(178, 178, 183, 0.85);
-    background-size: cover;
     border: none;
     padding: 35px;
     border-radius: 20px;
@@ -172,7 +170,7 @@ body {
     margin-right: 100px;
     font-weight: 500;
     position: relative;
-    margin-top: 75px;
+    margin-top: 0px;
 }
 
 .wrapper-login input {
@@ -282,4 +280,59 @@ body {
     border-radius: 6px;
     padding: 10px;
     margin: 2px;
+}
+
+.top-destinations{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    align-content: space-between;
+    align-items: center;
+    margin: 0;
+
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #fff;
+    background-size: cover;
+    align-content: center;
+    align-content: space-between;
+    margin: 15%;
+}
+
+/* Global styles that apply to all screen sizes */
+
+/* Extra Small Devices (Phones) */
+@media (max-width: 575px) {
+    /* CSS rules for extra small screens */
+    /* Custom styles for phones */
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 576px) and (max-width: 767px) {
+    /* CSS rules for small screens */
+    /* Custom styles for tablets */
+}
+
+/* Medium Devices (Laptops) */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* CSS rules for medium screens */
+    /* Custom styles for laptops */
+}
+
+/* Large Devices (Desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* CSS rules for large screens */
+    /* Custom styles for large desktops */
+}
+
+/* Extra Large Devices (Large Desktops) */
+@media (min-width: 1200px) {
+    /* CSS rules for extra large screens */
+    /* Custom styles for extra large desktops */
 }
