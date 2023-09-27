@@ -7,10 +7,12 @@
 
 body {
     margin: 0;
-    padding: 0;
-    background-image: url('/images/pei-yu-SsILMBrUJ3Y-unsplash.jpg');
-    background-size: cover;
-    background-position: center;
+    padding: 10;
+    background-image: url(/images/pei-yu-SsILMBrUJ3Y-unsplash.jpg);
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+    
   }
     
 
@@ -20,7 +22,6 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,28 +111,23 @@ body {
     color: #e4e4e4;
 }
 .home {
-    min-height: 100vh;
     position: relative;
     width: 100%;
     display: flex;
     align-items:start;
     justify-content: space-between;
-    background-attachment: fixed;
-    background-position: center top;
-   margin-top: 100px;
-    
-}
+    margin-top: 26px;
+    margin-bottom: 40px;
+    }
 
 .content {
-    max-width: 500px;
-    margin-left: 140px;
+    max-width: 575px;
     color: black;
     font-weight: 600;
-    margin-left: 160px;
-    margin-top: 40;
-    margin-bottom: 100px
-    inline: height 1.5em;
-}
+    margin-left: 200px;
+    margin-top: 70;
+    margin-bottom: 175px
+    }
 
 .content h2 {
     font-size: 2rem;
@@ -170,8 +166,7 @@ body {
     margin-right: 100px;
     font-weight: 500;
     position: relative;
-    margin-top: 0px;
-}
+    }
 
 .wrapper-login input {
     background-color: transparent;
@@ -187,7 +182,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-right: 8px;
-
 }
 
 .input-box {
@@ -203,7 +197,6 @@ body {
     justify-content: space-between;
     display: flex;
     align-items: center;
-
 }
 
 .input-box ::placeholder {
@@ -223,13 +216,11 @@ body {
     align-content: center;
     display: flex;
     cursor: pointer;
-
 }
 
 .btn:hover {
     background-color: transparent;
     transition: background-color 0.3s ease;
-
 }
 
 .register-link {
@@ -284,11 +275,11 @@ body {
 
 .top-destinations{
     display: flex;
-    flex-direction: column;
     background-color: white;
     background-position: center;
     background-size: cover;
     align-content: space-between;
+    align-content: center;
     align-items: center;
     margin: 0;
 
@@ -296,13 +287,44 @@ body {
 
 .options{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     background: #fff;
     background-size: cover;
     align-content: center;
     align-content: space-between;
     margin: 15%;
+    background-color: #ebe3e3;
+}
+
+.top-destinations{
+    display: flex;
+    align-content: center;
+    align-content: space-between;
+    background-color: #fff;
+    background-size: cover;
+    margin: 0;
+    padding:0;
+    margin-bottom: 40px;
+}
+
+.suggestions{
+    align-content: center;
+    align-items: center;
+    align-content: space-between;
+    margin-top: 100px;
+    }
+
+.suggestions p{
+    align-items: center;
+    align-content: center;
+    max-width: 500px;
+   
+}
+
+.suggestions h2{
+    align-items: center;
+    align-content: center;
 }
 
 /* Global styles that apply to all screen sizes */
@@ -331,8 +353,3 @@ body {
     /* Custom styles for large desktops */
 }
 
-/* Extra Large Devices (Large Desktops) */
-@media (min-width: 1200px) {
-    /* CSS rules for extra large screens */
-    /* Custom styles for extra large desktops */
-}
