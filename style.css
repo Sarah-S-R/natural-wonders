@@ -275,14 +275,42 @@ body {
 
 .top-destinations{
     display: flex;
+    flex-direction: column;
     background-color: white;
     background-position: center;
     background-size: cover;
     align-content: space-between;
     align-content: center;
     align-items: center;
+    justify-content: center;
     margin: 0;
 
+}
+
+.suggestions{
+    
+    align-content: center;
+    align-items: center;
+    align-content: space-between;
+    margin: 0 auto;
+    margin-top: 100px;
+    }
+
+.suggestions p{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    max-width: 500px;
+    text
+    
+   }
+
+.suggestions h1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
 }
 
 .options{
@@ -297,35 +325,6 @@ body {
     background-color: #ebe3e3;
 }
 
-.top-destinations{
-    display: flex;
-    align-content: center;
-    align-content: space-between;
-    background-color: #fff;
-    background-size: cover;
-    margin: 0;
-    padding:0;
-    margin-bottom: 40px;
-}
-
-.suggestions{
-    align-content: center;
-    align-items: center;
-    align-content: space-between;
-    margin-top: 100px;
-    }
-
-.suggestions p{
-    align-items: center;
-    align-content: center;
-    max-width: 500px;
-   
-}
-
-.suggestions h2{
-    align-items: center;
-    align-content: center;
-}
 
 /* Global styles that apply to all screen sizes */
 
