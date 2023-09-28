@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 body {
     margin: 0;
     padding: 10;
@@ -13,8 +12,6 @@ body {
     background-position: center top;
     background-repeat: no-repeat;
 }
-
-
 .header {
     position: fixed;
     top: 0;
@@ -26,7 +23,6 @@ body {
     position: relative;
     align-items: baseline;
 }
-
 .logo {
     font-size: 2.5rem;
     color: #fff;
@@ -37,11 +33,9 @@ body {
     cursor: pointer;
     transition: .5s ease;
     }
-
 .logo:hover {
     color: #2b78a1;
 }
-
 .navbar a {
     position: relative;
     font-size: 1.1rem;
@@ -51,7 +45,6 @@ body {
     margin-left: 40px;
     width: 0;
 }
-
 .navbar a::before {
     content: '';
     position: absolute;
@@ -63,12 +56,10 @@ body {
     transition: .3s;
     opacity: 0;
 }
-
 .navbar a:hover::before {
     width: 100%;
     opacity: 1;
 }
-
 .search-bar {
     width: 300px;
     height: 35px;
@@ -78,7 +69,6 @@ body {
     display: flex;
     align-items: center;
 }
-
 .search-bar input {
     width: 100%;
     background: transparent;
@@ -88,11 +78,9 @@ body {
     color: #e4e4e4;
     padding: 10px;
 }
-
 .search-bar input::placeholder {
     color: #e4e4e4;
 }
-
 .search-bar button {
     width: 40px;
     height: 100%;
@@ -104,12 +92,10 @@ body {
     cursor: pointer;
     padding: 5px;
 }
-
 .search-bar button i {
     font-size: 22px;
     color: #e4e4e4;
 }
-
 .home {
     position: relative;
     width: 100%;
@@ -118,7 +104,6 @@ body {
     margin-top: 26px;
     margin-bottom: 150px;
 }
-
 .content {
     max-width: 575px;
     color: black;
@@ -126,15 +111,12 @@ body {
     margin-left: 200px;
     line-height: 1.5;
 }
-
 .content h2 {
     font-size: 2rem;
 }
-
 .content p {
     margin: 0 0 40px;
 }
-
 .content a {
     color: #fff;
     background-color: #2b78a1;
@@ -145,12 +127,10 @@ body {
     padding: 10px 40px;
     position: relative;
 }
-
 .content a:hover {
     background: transparent;
     transition: 0.5s;
 }
-
 .wrapper-login {
 
     color: black;
@@ -163,9 +143,7 @@ body {
     margin-right: 7%;
     font-weight: 500;
     position: relative;
-    
 }
-
 .wrapper-login input {
     background-color: transparent;
     background: transparent;
@@ -175,11 +153,9 @@ body {
     color: black;
     font-weight: 500;
 }
-
 .input-box i {    
     padding-right: 8px;
 }
-
 .input-box {
     background-color: transparent;
     background: transparent;
@@ -199,7 +175,6 @@ body {
     font-weight: 500;
     font-size: 1rem;
 }
-
 .btn {
     background-color: #2b78a1;
     outline: none;
@@ -212,18 +187,15 @@ body {
     display: flex;
     cursor: pointer;
 }
-
 .btn:hover {
     background-color: transparent;
     transition: background-color 0.3s ease;
 }
-
 .register-link {
     display: flex;
     justify-content: space-between;
     margin: 2px;
 }
-
 .register-link a {
     text-decoration: none;
     font-size: 0.80rem;
@@ -231,27 +203,23 @@ body {
     padding: 2px;
     margin-right: 45px;
 }
-
 .register-link p {
     text-decoration: none;
     font-size: 0.80rem;
     font-weight: 700;
     padding: 2px;
 }
-
 .remember-forgot {
     justify-content: space-between;
     display: flex;
     margin: 2px;
 }
-
 .remember-forgot a {
     text-decoration: none;
     font-size: 0.80rem;
     padding: 2px;
     font-weight: 700;
 }
-
 .remember-forgot label {
     text-decoration: none;
     font-size: .80rem;
@@ -259,20 +227,17 @@ body {
     padding: 2px;
     display: flex;
 }
-
 .remember-forgot checkbox {
     border-radius: 6px;
     padding: 10px;
     margin: 2px;
 }
-
 .top-destinations {
     background-color: white;
     align-content: space-between;
     justify-content: center;
     margin-top: 60PX;
     }
-
 .suggestions {
     text-align: center;
     margin-top: 60px;
@@ -281,25 +246,21 @@ body {
     margin-right: 15%;
     width: 75%;
 }
-
 .suggestions p {
     text-align: center;
     font-size: 1rem;
     line-height: 1.5;
     margin: 10px;
 }
-
 .suggestions h1 {
     font-size: 1.5rem;
     color: black;
     margin-top: 60px;
 }
-
 .suggestions h3 {
     font-size: 1rem;
     color: black;
 }
-
 .options {
     display: flex;
     flex-direction: row;
@@ -309,7 +270,6 @@ body {
     width: 100%;
     gap: 2;
 }
-
 .option1,
 .option2,
 .option3 {
@@ -320,7 +280,6 @@ body {
     border-radius: 10px;
     padding: 10px;
 }
-
 .option1 img, 
 .option2 img, 
 .option3 img{
@@ -328,11 +287,8 @@ body {
     max-height: 75vh;
     align-items: baseline;
 }
-
 .highlight{
 background-color: aliceblue;
-
-
 }
 /* Global styles that apply to all screen sizes */
 
