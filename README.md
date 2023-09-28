@@ -4,10 +4,10 @@ This is your go-to guide for discovering and planning trips to Newfoundland's st
 
 Features
 <br>
-**Explore:** Find detailed info, photos, and locations for must-see natural wonders.
+🌎**Explore:** Find detailed info, photos, and locations for must-see natural wonders.
 <br>
-**Search:** Easily locate specific attractions, activities, or regions.
+🔍**Search:** Easily locate specific attractions, activities, or regions.
 <br>
-**Plan:** Create custom itineraries and save your favorite spots.
+🗺️**Plan:** Create custom itineraries and save your favorite spots.
 <br>
-**Share:** Share your experiences and tips with fellow travelers.
+⭐**Share:** Share your experiences and tips with fellow travelers.
