@@ -321,7 +321,19 @@ body {
     padding: 10px;
 }
 
+.option1 img, 
+.option2 img, 
+.option3 img{
+    max-width: 100%;
+    max-height: 75vh;
+    align-items: baseline;
+}
 
+.highlight{
+background-color: aliceblue;
+
+
+}
 /* Global styles that apply to all screen sizes */
 
 /* Extra Small Devices (Phones) */
