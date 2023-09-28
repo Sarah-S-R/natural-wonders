@@ -1,6 +1,6 @@
-###Welcome to the Newfoundland Natural Wonders project###
+#Welcome to the Newfoundland Natural Wonders project
 <br>
-#This is your go-to guide for discovering and planning trips to Newfoundland's stunning natural attractions.
+##This is your go-to guide for discovering and planning trips to Newfoundland's stunning natural attractions.
 
 Features
 <br>
