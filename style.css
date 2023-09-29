@@ -299,15 +299,29 @@ body {
 }
 .highlight{
 background-color: #fff;
+display: flex;
 }
 .discover{
     border: 2px solid;
     background-color:rgba(1,113,187, 0.85);
+    border: 2px solid;
 }
 .discover img{
     background-image: no-repeat;
     width: 50%;
-    
+}
+
+.discover h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.discover p{
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.5;
+    max-width: 75%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 /*Discover you next adventure*/
 
