@@ -399,6 +399,12 @@ padding: 50px;
     border-radius: 10px;
 }
 
+/*About Us*/
+.about-content {
+    background-image: none;
+}
+
+
 /* Global styles that apply to all screen sizes */
 
 /* Extra Small Devices (Phones) */
