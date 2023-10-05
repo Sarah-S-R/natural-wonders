@@ -37,7 +37,8 @@ body {
     transition: .5s ease;
     }
 .logo:hover {
-    color: #2b78a1;
+   /* color: #2b78a1;*/
+    color: rgb( 1,113,187);
 }
 .navbar a {
     position: relative;
@@ -56,7 +57,8 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background: #fff;
+    /*background: #fff;*/
+    background: rgb(28, 28, 59);
     transition: .3s;
     opacity: 0;
 }
@@ -159,7 +161,6 @@ body {
     margin: 40px;
     font-weight: 500;
     position: relative;
-    
 }
 .wrapper-login input {
     background-color: transparent;
@@ -291,9 +292,9 @@ body {
 .option1,
 .option2,
 .option3 {
-    
     align-content: space-between;
-    background-color: rgba(178, 178, 183, 0.25);
+   /* background-color: rgba(178, 178, 183, 0.25);*/
+    border: 2px solid rgb(28, 28, 59);;
     margin: 40px;
     border-radius: 10px;
     padding: 10px;
@@ -306,37 +307,97 @@ body {
     align-items: baseline;
 }
 .highlight{
-background-color: #fff;
+background-color: rgb(28, 28, 59);
 display: flex;
+align-items: center;
+padding: 50px;
 }
 .discover{
-    border: 2px solid;
-    background-color:rgba(1,113,187, 0.85);
-    border: 2px solid;
+    background-color:rgb(28, 28, 59);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align:justify;
+    line-height: 1.5;
+    flex: 1;
+    margin: 20px;
+    flex-direction: column;
+    min-width: 45%;
+    padding: 20px;
 }
-.discover img{
-    background-image: no-repeat;
-    width: 50%;
+.promo img{
+    max-width: 100%;
+    height: auto;
+    flex: 1;
 }
 
 .discover h1{
-    text-align: center;
-    margin-top: 20px;
+    margin: 20px;
+    flex: 1;
 }
 .discover p{
-    text-align: center;
-    margin-top: 20px;
-    line-height: 1.5;
-    max-width: 75%;
-    margin-left: 15%;
-    margin-right: 15%;
-}
+    flex: 1;
+    max-width: 100%;
+   }
 /*Discover you next adventure*/
 
-
-
-
-
+.footer {
+    background-color: #fff; /* Set the background color */
+    color: rgb(28, 28, 59);  /* Set text color */
+    padding: 20px; /* Add some padding for spacing */
+    text-align: center; /* Center-align text */
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items:last baseline;
+    
+}
+.footer-content p{
+    color: rgb(28, 28, 59);
+    max-width: 100%; /* Set the maximum width for content */
+    margin: 0 auto; /* Center-align content horizontally */
+}
+.social-icons {
+    display: flex;
+    gap: 20px;
+    font-size: 1.5rem;
+    color: rgb(28, 28, 59);
+}
+.site-map ul {
+    list-style: none;
+    padding: 10;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.site-map li {
+    margin-bottom: 10px;
+    justify-content: space-between;
+    margin: 20px;
+}
+.site-map a {
+    text-decoration: none;
+    color: rgb(28, 28, 59);
+}
+.newsletter h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.newsletter input[type="email"] {
+    width: 200px;
+    padding: 5px;
+    border: 2px solid  rgb(28, 28, 59);
+    border-radius: 10px;
+}
+.newsletter button {
+    background-color: rgb(28, 28, 59);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
 
 /* Global styles that apply to all screen sizes */
 
