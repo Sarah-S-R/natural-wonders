@@ -467,49 +467,42 @@ body {
 /*About Us*/
 body.about {
     background-image: none;
+    margin: auto;
     /* Remove the background image for the body */
 }
 
 .about-us {
-    border: 2px solid;
     display: flex;
     flex-direction: column;
-    padding: 20px;
     margin: 0%;
 }
 
 .about-content {
-    border: 2px solid;
     flex-direction: column;
     text-align: justify;
     max-width: 100%;
-    margin: 15%;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(28, 28,59); 
 }
-
 .about-content h1,
 h2 {
     text-align: center;
-    margin-top: 2%;
-    margin-bottom: 1%;
-}
-
-.about-content p {
-    padding: 20px;
-    margin: 20px;
-}
-
-.about-content ul {
-    text-align: justify;
+    max-width: 50%;
+    margin: auto;
     padding: 10px;
-    align-content: space-between;
-    align-items: center;
+    color: rgb(28, 28, 59);
+    background-color: #fff;
 }
-
-.about-us .about-img {
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    background-position: bottom;
+.about-content p {
+    text-align: justify;
+    max-width: 50%;
+    margin: auto;
+    padding: 10px;
+    color: #fff;
+    line-height: 1.5;
+    color: rgb(28, 28, 59);
+    background-color: #fff;
 }
 
 /*Contact Page*/
