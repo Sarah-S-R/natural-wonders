@@ -9,7 +9,6 @@ body {
     margin: 0;
     padding: 10;
     background-size: contain;
-    background-image: url(/images/pei-yu-SsILMBrUJ3Y-unsplash.jpg);
     background-position: center top;
     background-repeat: no-repeat;
 }
@@ -24,13 +23,11 @@ body {
     justify-content: space-between;
     position: relative;
     align-items: baseline;
-    /*background-color: rgb(1,113,187);*/
     background-color: #fff;
 }
 
 .logo {
     font-size: 2.5rem;
-    /*color: #fff;*/
     color: rgb(28, 28, 59);
     text-decoration: none;
     font-weight: 700;
@@ -41,14 +38,12 @@ body {
 }
 
 .logo:hover {
-    /* color: #2b78a1;*/
     color: rgb(1, 113, 187);
 }
 
 .navbar a {
     position: relative;
     font-size: 1.1rem;
-    /* color: #fff;*/
     color: rgb(28, 28, 59);
     font-weight: 500;
     text-decoration: none;
@@ -63,7 +58,6 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    /*background: #fff;*/
     background: rgb(28, 28, 59);
     transition: .3s;
     opacity: 0;
@@ -78,7 +72,6 @@ body {
     width: 300px;
     height: 35px;
     background: transparent;
-    /* border: 2px solid #e4e4e4;*/
     border: 2px solid rgb(28, 28, 59);
     border-radius: 6px;
     display: flex;
@@ -87,16 +80,17 @@ body {
 
 .search-bar input {
     width: 100%;
+    height: auto;
     background: transparent;
     border: none;
     outline: none;
     font-size: 1rem;
     color: #e4e4e4;
+    color: rgb(28, 28, 59);
     padding: 10px;
 }
 
 .search-bar input::placeholder {
-    /* color: #e4e4e4;*/
     color: rgb(28, 28, 59);
 }
 
@@ -114,7 +108,6 @@ body {
 
 .search-bar button i {
     font-size: 22px;
-    /*color: #e4e4e4;*/
     color: rgb(28, 28, 59);
 }
 
@@ -146,16 +139,17 @@ body {
 .content h2 {
     font-size: 2rem;
     margin-bottom: 15px;
-    margin-top: 40px;
+    margin-top: 25px;
+    background-color: transparent;
+    text-align: center;
 }
 
 .content p {
-    margin: 0 0 40px;
+    margin: 0 0 25px;
 }
 
 .content a {
     color: #fff;
-    /*background-color: rgb(1,113,187);*/
     background-color: rgb(28, 28, 59);
     text-decoration: none;
     border: 2px solid #fff;
@@ -176,11 +170,14 @@ body {
     border: none;
     padding: 35px;
     border-radius: 20px;
-    text-align: center;
+    text-align: justify;
     font-size: 1rem;
     margin: 40px;
     font-weight: 500;
     position: relative;
+}
+.wrapper-login h2{
+    background-color: transparent;
 }
 
 .wrapper-login input {
