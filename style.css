@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 body {
     margin: 0;
     padding: 10;
@@ -12,6 +13,7 @@ body {
     background-position: center top;
     background-repeat: no-repeat;
 }
+
 .header {
     position: fixed;
     top: 0;
@@ -25,6 +27,7 @@ body {
     /*background-color: rgb(1,113,187);*/
     background-color: #fff;
 }
+
 .logo {
     font-size: 2.5rem;
     /*color: #fff;*/
@@ -35,21 +38,24 @@ body {
     -webkit-text-stroke-color: black;
     cursor: pointer;
     transition: .5s ease;
-    }
-.logo:hover {
-   /* color: #2b78a1;*/
-    color: rgb( 1,113,187);
 }
+
+.logo:hover {
+    /* color: #2b78a1;*/
+    color: rgb(1, 113, 187);
+}
+
 .navbar a {
     position: relative;
     font-size: 1.1rem;
-   /* color: #fff;*/
+    /* color: #fff;*/
     color: rgb(28, 28, 59);
     font-weight: 500;
     text-decoration: none;
     margin-left: 40px;
     width: 0;
 }
+
 .navbar a::before {
     content: '';
     position: absolute;
@@ -62,20 +68,23 @@ body {
     transition: .3s;
     opacity: 0;
 }
+
 .navbar a:hover::before {
     width: 100%;
     opacity: 1;
 }
+
 .search-bar {
     width: 300px;
     height: 35px;
     background: transparent;
-   /* border: 2px solid #e4e4e4;*/
+    /* border: 2px solid #e4e4e4;*/
     border: 2px solid rgb(28, 28, 59);
     border-radius: 6px;
     display: flex;
     align-items: center;
 }
+
 .search-bar input {
     width: 100%;
     background: transparent;
@@ -85,10 +94,12 @@ body {
     color: #e4e4e4;
     padding: 10px;
 }
+
 .search-bar input::placeholder {
-   /* color: #e4e4e4;*/
+    /* color: #e4e4e4;*/
     color: rgb(28, 28, 59);
 }
+
 .search-bar button {
     width: 40px;
     height: 100%;
@@ -100,11 +111,13 @@ body {
     cursor: pointer;
     padding: 5px;
 }
+
 .search-bar button i {
     font-size: 22px;
     /*color: #e4e4e4;*/
     color: rgb(28, 28, 59);
 }
+
 .home {
     position: relative;
     width: 100%;
@@ -116,25 +129,30 @@ body {
     background-image: no-repeat;
     margin-top: 5px;
 }
+
 .mainphoto {
     display: none;
 }
+
 .content {
     max-width: 575px;
     color: black;
     font-weight: 600;
     line-height: 1.5;
     padding: 10px;
-    margin-left: 12%;   
+    margin-left: 12%;
 }
+
 .content h2 {
     font-size: 2rem;
     margin-bottom: 15px;
     margin-top: 40px;
 }
+
 .content p {
     margin: 0 0 40px;
 }
+
 .content a {
     color: #fff;
     /*background-color: rgb(1,113,187);*/
@@ -146,10 +164,12 @@ body {
     padding: 10px 40px;
     position: relative;
 }
+
 .content a:hover {
     background: transparent;
     transition: 0.5s;
 }
+
 .wrapper-login {
     color: black;
     background-color: rgba(210, 210, 215, 0.75);
@@ -162,6 +182,7 @@ body {
     font-weight: 500;
     position: relative;
 }
+
 .wrapper-login input {
     background-color: transparent;
     background: transparent;
@@ -171,9 +192,11 @@ body {
     color: black;
     font-weight: 500;
 }
-.input-box i {    
+
+.input-box i {
     padding-right: 8px;
 }
+
 .input-box {
     background-color: transparent;
     background: transparent;
@@ -186,15 +209,16 @@ body {
     margin: 10px;
     justify-content: space-between;
     align-content: baseline;
-    }
+}
 
 .input-box ::placeholder {
     color: black;
     font-weight: 500;
     font-size: 1rem;
 }
+
 .btn {
-   /* background-color: rgb(1,113,187);*/
+    /* background-color: rgb(1,113,187);*/
     background-color: rgb(28, 28, 59);
     outline: none;
     border: #fff solid;
@@ -206,15 +230,18 @@ body {
     display: flex;
     cursor: pointer;
 }
+
 .btn:hover {
     background-color: transparent;
     transition: background-color 0.3s ease;
 }
+
 .register-link {
     display: flex;
     justify-content: space-between;
     margin: 2px;
 }
+
 .register-link a {
     text-decoration: none;
     font-size: 0.80rem;
@@ -222,23 +249,27 @@ body {
     padding: 2px;
     margin-right: 45px;
 }
+
 .register-link p {
     text-decoration: none;
     font-size: 0.80rem;
     font-weight: 700;
     padding: 2px;
 }
+
 .remember-forgot {
     justify-content: space-between;
     display: flex;
     margin: 2px;
 }
+
 .remember-forgot a {
     text-decoration: none;
     font-size: 0.80rem;
     padding: 2px;
     font-weight: 700;
 }
+
 .remember-forgot label {
     text-decoration: none;
     font-size: .80rem;
@@ -246,17 +277,20 @@ body {
     padding: 2px;
     display: flex;
 }
+
 .remember-forgot checkbox {
     border-radius: 6px;
     padding: 10px;
     margin: 2px;
 }
+
 .top-destinations {
     background-color: white;
     align-content: space-between;
     justify-content: center;
     margin-top: 60PX;
-    }
+}
+
 .suggestions {
     text-align: center;
     margin-top: 60px;
@@ -265,21 +299,25 @@ body {
     margin-right: 15%;
     width: 75%;
 }
+
 .suggestions p {
     text-align: center;
     font-size: 1rem;
     line-height: 1.5;
     margin: 10px;
 }
+
 .suggestions h1 {
     font-size: 1.5rem;
     color: black;
     margin-top: 60px;
 }
+
 .suggestions h3 {
     font-size: 1rem;
     color: black;
 }
+
 .options {
     display: flex;
     flex-direction: row;
@@ -289,40 +327,46 @@ body {
     width: 100%;
     gap: 2;
 }
-.options a{
+
+.options a {
     text-decoration: none;
 }
+
 .option1,
 .option2,
 .option3 {
     align-content: space-between;
-   /* background-color: rgba(178, 178, 183, 0.25);*/
-    border: 2px solid rgb(28, 28, 59);;
+    /* background-color: rgba(178, 178, 183, 0.25);*/
+    border: 2px solid rgb(28, 28, 59);
+    ;
     margin: 40px;
     border-radius: 10px;
     padding: 10px;
 }
-.option1 img, 
-.option2 img, 
-.option3 img{
+
+.option1 img,
+.option2 img,
+.option3 img {
     max-width: 100%;
     max-height: 75vh;
     align-items: baseline;
     border-radius: 10px;
 }
-.highlight{
-background-color: rgb(28, 28, 59);
-display: flex;
-align-items: center;
-padding: 50px;
+
+.highlight {
+    background-color: rgb(28, 28, 59);
+    display: flex;
+    align-items: center;
+    padding: 50px;
 }
-.discover{
-    background-color:rgb(28, 28, 59);
+
+.discover {
+    background-color: rgb(28, 28, 59);
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    text-align:justify;
+    text-align: justify;
     line-height: 1.5;
     flex: 1;
     margin: 20px;
@@ -330,44 +374,56 @@ padding: 50px;
     min-width: 45%;
     padding: 20px;
 }
-.promo img{
+
+.promo img {
     max-width: 100%;
     height: auto;
     flex: 1;
     border-radius: 10px;
 }
-.discover h1{
+
+.discover h1 {
     margin: 20px;
     flex: 1;
 }
-.discover p{
+
+.discover p {
     flex: 1;
     max-width: 100%;
-   }
+}
 
-   /*Discover you next adventure*/
+/*Discover you next adventure*/
 .footer {
-    background-color: #fff; /* Set the background color */
-    color: rgb(28, 28, 59);  /* Set text color */
-    padding: 20px; /* Add some padding for spacing */
-    text-align: center; /* Center-align text */
+    background-color: #fff;
+    /* Set the background color */
+    color: rgb(28, 28, 59);
+    /* Set text color */
+    padding: 20px;
+    /* Add some padding for spacing */
+    text-align: center;
+    /* Center-align text */
     margin: 10px;
     display: flex;
     justify-content: space-between;
-    align-items:last baseline;
-    
+    align-items: last baseline;
+
 }
-.footer-content p{
+
+.footer-content p {
     color: rgb(28, 28, 59);
-    max-width: 100%; /* Set the maximum width for content */
-    margin: 0 auto; /* Center-align content horizontally */
+    max-width: 100%;
+    /* Set the maximum width for content */
+    margin: 0 auto;
+    /* Center-align content horizontally */
 }
+
 .social-icons {
     display: flex;
     gap: 20px;
     font-size: 1.5rem;
     color: rgb(28, 28, 59);
 }
+
 .site-map ul {
     list-style: none;
     padding: 10;
@@ -375,25 +431,30 @@ padding: 50px;
     justify-content: space-between;
     margin: 10px;
 }
+
 .site-map li {
     margin-bottom: 10px;
     justify-content: space-between;
     margin: 20px;
 }
+
 .site-map a {
     text-decoration: none;
     color: rgb(28, 28, 59);
 }
+
 .newsletter h4 {
     margin-bottom: 10px;
     font-weight: bold;
 }
+
 .newsletter input[type="email"] {
     width: 200px;
     padding: 5px;
-    border: 2px solid  rgb(28, 28, 59);
+    border: 2px solid rgb(28, 28, 59);
     border-radius: 10px;
 }
+
 .newsletter button {
     background-color: rgb(28, 28, 59);
     color: #fff;
@@ -405,8 +466,10 @@ padding: 50px;
 
 /*About Us*/
 body.about {
-    background-image: none; /* Remove the background image for the body */ 
+    background-image: none;
+    /* Remove the background image for the body */
 }
+
 .about-us {
     border: 2px solid;
     display: flex;
@@ -414,6 +477,7 @@ body.about {
     padding: 20px;
     margin: 0%;
 }
+
 .about-content {
     border: 2px solid;
     flex-direction: column;
@@ -421,21 +485,26 @@ body.about {
     max-width: 100%;
     margin: 15%;
 }
-.about-content h1, h2{
+
+.about-content h1,
+h2 {
     text-align: center;
     margin-top: 2%;
     margin-bottom: 1%;
 }
-.about-content p{
+
+.about-content p {
     padding: 20px;
     margin: 20px;
 }
-.about-content ul{
+
+.about-content ul {
     text-align: justify;
     padding: 10px;
     align-content: space-between;
     align-items: center;
 }
+
 .about-us .about-img {
     display: flex;
     flex-direction: column;
@@ -443,39 +512,57 @@ body.about {
     background-position: bottom;
 }
 
+/*Contact Page*/
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
+input[type=text],
+    select,
+    textarea {
+        width: 100%;
+        /* Full width */
+        padding: 12px;
+        /* Some padding */
+        
+        /* Gray border */
+        border-radius: 5px;
+        /* Rounded borders */
+        box-sizing: border-box;
+        /* Make sure that padding and width stays in place */
+        margin-top: 6px;
+        /* Add a top margin */
+        margin-bottom: 16px;
+        /* Bottom margin */
+        resize: vertical
+            /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
     background-color: rgb(28, 28, 59);
     color: white;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: rgb(28, 28, 59);
+    border: 2px solid black;
+}
+
+/* When moving the mouse over the submit button, add a blue color */
+input[type=submit]:hover {
+    background-color: rgb(1, 113, 187);
+    transition: 0.5s;
+}
+
+/* Add a background color and some padding around the form */
+.contact-container {
+    background-color: #f2f2f2;
     padding: 20px;
-  }
+    margin: auto;
+    color: rgb(28, 28, 59);
+    font-weight: 400;
+    width: 85%;
+    border-radius: 5px;
+}
+
 
 /* Global styles that apply to all screen sizes */
 
@@ -487,24 +574,32 @@ input[type=text], select, textarea {
 
 /* Small Devices (Tablets) */
 @media (min-width: 576px) and (max-width: 767px) {
-    p{font-size: 1.25rem;}
+    p {
+        font-size: 1.25rem;
+    }
+
     /* CSS rules for small screens */
     /* Custom styles for tablets */
 }
 
 /* Medium Devices (Laptops) */
 @media (min-width: 768px) and (max-width: 991px) {
-    p {font-size: 1.5rem;
-    line-height: 1.5;}
+    p {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+
     /* CSS rules for medium screens */
     /* Custom styles for laptops */
 }
-    
+
 /* Large Devices (Desktops) */
 @media (min-width: 992px) and (max-width: 1199px) {
-    p {font-size: 2rem;
-    line-height: 1.5;
+    p {
+        font-size: 2rem;
+        line-height: 1.5;
     }
+
     /* CSS rules for large screens */
     /* Custom styles for large desktops */
 }
