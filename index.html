@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="/icons/account_circle_FILL0_wght400_GRAD0_opsz24.svg" rel='stylesheet'>
-    <script src="main.js"></script>
+    <script src="./main.js"></script>
 </head>
 
 <body>
@@ -30,8 +30,7 @@
             <button type="submit"><i class='bx bx-search'></i></button>
         </form>
     </header>
-    <script src="script.js"></script>
-
+    
     <!---Hero Section_--->
     <section class="home">
         <div class="mainphoto">
@@ -42,31 +41,67 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu magna vel dui faucibus laoreet.
                 Nunc turpis mauris, tristique quis interdum id, mollis sit amet sapien.
             </p>
-            <a href="./register.html">Get Started</a>
+            <a href="#">Get Started</a>
         </div>
 
         <!---Member Login--->
         <div class="wrapper-login">
-            <h2>Member Login</h2>
-            <form action="#">
+            <form action="#" class="form form--hidden" id="login">
+                <h2 class="Member Login">Member Login</h2>
+                <div class="form__message form__error">Incorrect username/password combination</div>
                 <div class="input-box">
                     <span class="icon"><i class='bx bx-envelope'></i></span>
-                    <input type="email" required placeholder="Enter your email...">
+                    <input type="email" autofocus placeholder="Enter your email...">
+                    <div class="form__input-error-message"></div>
                 </div>
                 <div class="input-box">
                     <span class="icon"><i class='bx bx-lock-alt'></i></span>
-                    <input type="password" required placeholder="Enter your password...">
+                    <input type="password" autofocus placeholder="Enter your password...">
+                    <div class="form__input-error-message"></div>
                 </div>
+                <button type="submit" class="btn" id="member-login-button">Submit</button>
                 <div class="remember-forgot">
                     <label><input type="checkbox"> Remember me </label>
                     <a href="#">Forgot password?</a>
                 </div>
                 <div class="register-link">
-                    <p>Not a member?</p>
-                    <a href="./register.html">Sign up now</a>
+                    <a href="#" class="form__link" id="linkCreateAccount">Create account</a>
                 </div>
-                <button type="submit" class="btn" id="member-login-button">Login</button>
+                
             </form>
+         <div class="wrapper-createAccount">
+                <form action="#" class="form" id="createAccount">
+                    <h2 class="Create Account">Create Account</h2>
+                    <div class="form__message form__error">Incorrect username/password combination</div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bx-envelope'></i></span>
+                        <input type="username" autofocus placeholder="Username...">
+                        <div class="form__input-error-message"></div>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bx-envelope'></i></span>
+                        <input type="emailAddress" autofocus placeholder="Email address...">
+                        <div class="form__input-error-message"></div>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bx-lock-alt'></i></span>
+                        <input type="password" autofocus placeholder="Enter your password...">
+                        <div class="form__input-error-message"></div>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bx-lock-alt'></i></span>
+                        <input type="confirmPassword" autofocus placeholder="Confirm password...">
+                        <div class="form__input-error-message"></div>
+                    </div>
+                    <button type="submit" class="btn" id="member-login-button">Submit</button>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Remember me </label>
+                    </div>
+                    <div class="register-link">
+                        <a href="#" class="form__link" id="linkLogin">Already have an Account? Sign in</a>
+                    </div>
+                    
+                </form>
         </div>
     </section>
 

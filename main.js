@@ -1,9 +1,14 @@
- // Get a reference to the member login button by its id
-const memberLoginButton = document.getElementById("member-login-button"); 
+ document.addEventListener(DOMContentLoaded, ()=>{
+    const loginForm =document.querySelector("#login")
+    const createAccountForm =document.querySelector("#createAccount");
 
-  // Define the function to run when the button is clicked
-  function handleMemberLoginClick( ) {
-    alert("Member login clicked. Open account.")
-}
- memberLoginButton.addEventListener("click", handleMemberLoginClick);
+    document.querySelector("linkCreateAccount").addEventListener("click", () =>{
+        loginForm.classicList.add("form--hidden");
+       createAccountForm.classicList.remove("form--hidden");
+    })
 
+    document.querySelector("linkLogin").addEventListener("click", () =>{
+        loginForm.classicList.remove("form--hidden");
+       createAccountForm.classicList.add("form--hidden");
+    })
+ })

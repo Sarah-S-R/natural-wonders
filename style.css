@@ -175,6 +175,7 @@ body {
     margin: 40px;
     font-weight: 500;
     position: relative;
+    
 }
 .wrapper-login h2{
     background-color: transparent;
@@ -280,7 +281,11 @@ body {
     padding: 10px;
     margin: 2px;
 }
+.form--hidden{
+    display: none;
+}
 
+/*Next section*/
 .top-destinations {
     background-color: white;
     align-content: space-between;
