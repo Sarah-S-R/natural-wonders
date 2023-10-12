@@ -559,6 +559,8 @@ input[type=submit]:hover {
     font-weight: 400;
     width: 85%;
     border-radius: 5px;
+    border: 1px solid rgb(28, 28, 59);
+    
 }
 
 
