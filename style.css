@@ -284,7 +284,10 @@ body {
 .form--hidden{
     display: none;
 }
-
+.form__input-error-message{
+    color: Red;
+    font-weight: 600;
+}
 /*Next section*/
 .top-destinations {
     background-color: white;
