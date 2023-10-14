@@ -299,9 +299,80 @@ body {
     align-content: space-between bottom;
     vertical-align: middle;
 }
+.login-icon i:hover{
+    color: rgb(1, 113, 187);
+    font-weight: 400;
+    transition: 0.3s;
+}
 
 .login-icon-sub-menu{
-    display: none;    
+    display: none;
+    position: absolute;
+    top: 100%;
+    font-size: 1rem;
+    background-color: rgb(28, 28, 59);
+    color: #fff;
+    border: 1px solid;
+    z-index: 1;
+    text-decoration: none;    
+}
+.login-icon:hover .login-icon-sub-menu{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+.login-icon-sub-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.login-icon-sub-menu li{
+    padding: 10px 20px;
+    text-align: right;
+}
+.login-icon-sub-menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+/* Add hover effect for menu items */
+.login-icon-sub-menu li:hover {
+   
+}
+
+/* Style the submenu container */
+.login-icon-sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: rgb(28, 28, 59); /* Change background color to navy */
+    z-index: 1;
+    border-radius: 10px;
+}
+
+/* Style the individual menu items */
+.login-icon-sub-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.login-icon-sub-menu li {
+    padding: 10px 20px;
+    text-align: center;
+}
+.login-icon-sub-menu a {
+    text-decoration: none;
+    color: white; /* Change font color to white */
+    display: block;
+}
+
+/* Add hover effect for menu items */
+.login-icon-sub-menu li:hover {
+    background-color: rgb(28, 28, 59) /* Change the background color on hover to a darker navy */ 
+}
+.login-icon-sub-menu.show {
+    display: block;
 }
 
 /*Next section*/
@@ -311,7 +382,6 @@ body {
     justify-content: center;
     margin-top: 60PX;
 }
-
 .suggestions {
     text-align: center;
     margin-top: 60px;
@@ -320,25 +390,21 @@ body {
     margin-right: 15%;
     width: 75%;
 }
-
 .suggestions p {
     text-align: center;
     font-size: 1rem;
     line-height: 1.5;
     margin: 10px;
 }
-
 .suggestions h1 {
     font-size: 1.5rem;
     color: black;
     margin-top: 60px;
 }
-
 .suggestions h3 {
     font-size: 1rem;
     color: black;
 }
-
 .options {
     display: flex;
     flex-direction: row;
@@ -348,23 +414,19 @@ body {
     width: 100%;
     gap: 2;
 }
-
 .options a {
     text-decoration: none;
 }
-
 .option1,
 .option2,
 .option3 {
     align-content: space-between;
     /* background-color: rgba(178, 178, 183, 0.25);*/
     border: 2px solid rgb(28, 28, 59);
-    ;
     margin: 40px;
     border-radius: 10px;
     padding: 10px;
 }
-
 .option1 img,
 .option2 img,
 .option3 img {
@@ -373,7 +435,6 @@ body {
     align-items: baseline;
     border-radius: 10px;
 }
-
 .highlight {
     background-color: rgb(28, 28, 59);
     display: flex;
