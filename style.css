@@ -75,9 +75,8 @@ body {
     border: 2px solid rgb(28, 28, 59);
     border-radius: 6px;
     display: flex;
-    align-items: center;
+    vertical-align: middle;
 }
-
 .search-bar input {
     width: 100%;
     height: auto;
@@ -89,11 +88,10 @@ body {
     color: rgb(28, 28, 59);
     padding: 10px;
 }
-
 .search-bar input::placeholder {
     color: rgb(28, 28, 59);
+    vertical-align: middle;
 }
-
 .search-bar button {
     width: 40px;
     height: 100%;
@@ -105,12 +103,10 @@ body {
     cursor: pointer;
     padding: 5px;
 }
-
 .search-bar button i {
     font-size: 22px;
     color: rgb(28, 28, 59);
 }
-
 .home {
     position: relative;
     width: 100%;
@@ -122,11 +118,9 @@ body {
     background-image: no-repeat;
     margin-top: 5px;
 }
-
 .mainphoto {
     display: none;
 }
-
 .content {
     max-width: 575px;
     color: black;
@@ -135,7 +129,6 @@ body {
     padding: 10px;
     margin-left: 12%;
 }
-
 .content h2 {
     font-size: 2rem;
     margin-bottom: 15px;
@@ -143,13 +136,11 @@ body {
     background-color: transparent;
     text-align: center;
 }
-
 .content p {
     margin: 0 0 25px;
     font-size: 1rem;
-    
+  
 }
-
 .content a {
     color: #fff;
     background-color: rgb(28, 28, 59);
@@ -160,12 +151,10 @@ body {
     padding: 10px 40px;
     position: relative;
 }
-
 .content a:hover {
     background: transparent;
     transition: 0.5s;
 }
-
 .wrapper-login {
     color: black;
     background-color: rgba(210, 210, 215, 0.75);
@@ -179,10 +168,9 @@ body {
     position: relative;
     
 }
-.wrapper-login h2{
+.wrapper-login h2 {
     background-color: transparent;
 }
-
 .wrapper-login input {
     background-color: transparent;
     background: transparent;
@@ -192,11 +180,9 @@ body {
     color: black;
     font-weight: 500;
 }
-
 .input-box i {
     padding-right: 8px;
 }
-
 .input-box {
     background-color: transparent;
     background: transparent;
@@ -208,15 +194,12 @@ body {
     font-weight: 700;
     margin: 10px;
     justify-content: space-between;
-    align-content: baseline;
 }
-
 .input-box ::placeholder {
     color: black;
     font-weight: 500;
     font-size: 1rem;
 }
-
 .btn {
     /* background-color: rgb(1,113,187);*/
     background-color: rgb(28, 28, 59);
@@ -230,18 +213,15 @@ body {
     display: flex;
     cursor: pointer;
 }
-
 .btn:hover {
     background-color: transparent;
     transition: background-color 0.3s ease;
 }
-
 .register-link {
     display: flex;
     justify-content: space-between;
     margin: 2px;
 }
-
 .register-link a {
     text-decoration: none;
     font-size: 0.80rem;
@@ -249,27 +229,23 @@ body {
     padding: 2px;
     margin-right: 45px;
 }
-
 .register-link p {
     text-decoration: none;
     font-size: 0.80rem;
     font-weight: 700;
     padding: 2px;
 }
-
 .remember-forgot {
     justify-content: space-between;
     display: flex;
     margin: 2px;
 }
-
 .remember-forgot a {
     text-decoration: none;
     font-size: 0.80rem;
     padding: 2px;
     font-weight: 700;
 }
-
 .remember-forgot label {
     text-decoration: none;
     font-size: .80rem;
@@ -277,7 +253,6 @@ body {
     padding: 2px;
     display: flex;
 }
-
 .remember-forgot checkbox {
     border-radius: 6px;
     padding: 10px;
@@ -292,6 +267,10 @@ body {
 }
 
 /*Login Page*/
+.login-icon {
+    position: relative;
+    display: inline-block;
+}
 .login-icon i {
     font-size: 2rem;
     color: rgb(28, 28, 59);
@@ -304,51 +283,30 @@ body {
     font-weight: 400;
     transition: 0.3s;
 }
-
-.login-icon-sub-menu{
-    display: none;
-    position: absolute;
-    top: 100%;
-    font-size: 1rem;
-    background-color: rgb(28, 28, 59);
-    color: #fff;
-    border: 1px solid;
-    z-index: 1;
-    text-decoration: none;    
-}
 .login-icon:hover .login-icon-sub-menu{
     display: block;
     text-decoration: none;
     color: #fff;
 }
-.login-icon-sub-menu ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.login-icon-sub-menu li{
-    padding: 10px 20px;
-    text-align: right;
+.login-icon-sub-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    font-size: 1rem;
+    color: #fff;
+    border: 1px solid;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(28, 28, 59); /* Change background color to navy */
+    z-index: 1;
+    border-radius: 10px;    
 }
 .login-icon-sub-menu a {
     text-decoration: none;
     color: #fff;
     display: block;
-}
-
-/* Add hover effect for menu items */
-.login-icon-sub-menu li:hover {
-   
-}
-
-/* Style the submenu container */
-.login-icon-sub-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    background-color: rgb(28, 28, 59); /* Change background color to navy */
-    z-index: 1;
-    border-radius: 10px;
 }
 
 /* Style the individual menu items */
@@ -356,20 +314,11 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
-}
-.login-icon-sub-menu li {
-    padding: 10px 20px;
     text-align: center;
 }
-.login-icon-sub-menu a {
-    text-decoration: none;
-    color: white; /* Change font color to white */
-    display: block;
-}
-
-/* Add hover effect for menu items */
-.login-icon-sub-menu li:hover {
-    background-color: rgb(28, 28, 59) /* Change the background color on hover to a darker navy */ 
+.login-icon-sub-menu li {
+    padding: 10px 10px;
+    text-align: center;
 }
 .login-icon-sub-menu.show {
     display: block;
@@ -421,7 +370,6 @@ body {
 .option2,
 .option3 {
     align-content: space-between;
-    /* background-color: rgba(178, 178, 183, 0.25);*/
     border: 2px solid rgb(28, 28, 59);
     margin: 40px;
     border-radius: 10px;
@@ -441,7 +389,6 @@ body {
     align-items: center;
     padding: 50px;
 }
-
 .discover {
     background-color: rgb(28, 28, 59);
     color: #fff;
@@ -456,19 +403,16 @@ body {
     min-width: 45%;
     padding: 20px;
 }
-
 .promo img {
     max-width: 100%;
     height: auto;
     flex: 1;
     border-radius: 10px;
 }
-
 .discover h1 {
     margin: 20px;
     flex: 1;
 }
-
 .discover p {
     flex: 1;
     max-width: 100%;
@@ -488,9 +432,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: last baseline;
-
 }
-
 .footer-content p {
     color: rgb(28, 28, 59);
     max-width: 100%;
@@ -498,14 +440,12 @@ body {
     margin: 0 auto;
     /* Center-align content horizontally */
 }
-
 .social-icons {
     display: flex;
     gap: 20px;
     font-size: 1.5rem;
     color: rgb(28, 28, 59);
 }
-
 .site-map ul {
     list-style: none;
     padding: 10;
@@ -513,30 +453,25 @@ body {
     justify-content: space-between;
     margin: 10px;
 }
-
 .site-map li {
     margin-bottom: 10px;
     justify-content: space-between;
     margin: 20px;
 }
-
 .site-map a {
     text-decoration: none;
     color: rgb(28, 28, 59);
 }
-
 .newsletter h4 {
     margin-bottom: 10px;
     font-weight: bold;
 }
-
 .newsletter input[type="email"] {
     width: 200px;
     padding: 5px;
     border: 2px solid rgb(28, 28, 59);
     border-radius: 10px;
 }
-
 .newsletter button {
     background-color: rgb(28, 28, 59);
     color: #fff;
@@ -552,13 +487,11 @@ body.about {
     margin: auto;
     /* Remove the background image for the body */
 }
-
 .about-us {
     display: flex;
     flex-direction: column;
     margin: 0%;
 }
-
 .about-content {
     flex-direction: column;
     text-align: justify;
@@ -588,26 +521,16 @@ h2 {
 }
 
 /*Contact Page*/
-/* Style inputs with type="text", select elements and textareas */
 input[type=text],
     select,
     textarea {
         width: 100%;
-        /* Full width */
         padding: 12px;
-        /* Some padding */
-        
-        /* Gray border */
         border-radius: 5px;
-        /* Rounded borders */
         box-sizing: border-box;
-        /* Make sure that padding and width stays in place */
         margin-top: 6px;
-        /* Add a top margin */
         margin-bottom: 16px;
-        /* Bottom margin */
-        resize: vertical
-            /* Allow the user to vertically resize the textarea (not horizontally) */
+        resize: vertical;
 }
 
 /* Style the submit button with a specific background color etc */
@@ -637,7 +560,6 @@ input[type=submit]:hover {
     width: 85%;
     border-radius: 5px;
     border: 1px solid rgb(28, 28, 59);
-    
 }
 
 

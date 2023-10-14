@@ -49,4 +49,13 @@ document.addEventListener("DOMContentLoaded", () => {
             clearInputError(inputElement);
         })
     })
+    // Get the user icon and submenu
+const loginIcon = document.getElementById("login-icon");
+const loginIconSubMenu = document.getElementById("login-icon-sub-menu");
+
+// Add a click event listener to the user icon
+loginIcon.addEventListener("click", () => {
+    // Toggle the 'show' class to make the submenu visible
+    loginIconSubMenu.classList.toggle("show");
+});
  });
