@@ -290,6 +290,20 @@ body {
     color: Red;
     font-weight: 600;
 }
+
+/*Login Page*/
+.login-icon i {
+    font-size: 2rem;
+    color: rgb(28, 28, 59);
+    display: inline-block;
+    align-content: space-between bottom;
+    vertical-align: middle;
+}
+
+.login-icon-sub-menu{
+    display: none;    
+}
+
 /*Next section*/
 .top-destinations {
     background-color: white;
