@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,18 +12,19 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="/icons/account_circle_FILL0_wght400_GRAD0_opsz24.svg" rel='stylesheet'>
 </head>
+
 <body>
 
     <!---Header_-->
     <header class="header">
         <a href="./index.html" class="logo" id="logo">logo</a>
         <nav class="navbar" id="navbar">
-            <a href="#" class ="map" id="map">Map</a>
-            <a href="#" class ="explore" id="explore">Explore</a>
-            <a href="./about.html" class ="about" id="about">About</a>
-            <a href="./contact.html" class ="contact" id="contact">Contact</a>
+            <a id="map" href="#" class="map">Map</a>
+            <a id="explore" href="#" class="explore">Explore</a>
+            <a id="about" href="#" class="about">About</a>
+            <a id="contact" href="#" class="contact">Contact</a>
         </nav>
-        <form action="#" class="search-bar">
+        <form id="search-bar" action="#" class="search-bar">
             <input type="text" placeholder="Search...">
             <button type="submit"><i class='bx bx-search'></i></button>
         </form>
@@ -45,11 +47,11 @@
         <div class="wrapper-login">
             <form class="form" id="login">
                 <h2 class="form__title">Login</h2>
-                <div class="form__message form__message--error"></div>              
+                <div class="form__message form__message--error"></div>
                 <div class="input-box">
                     <span class="icon"><i class='bx bx-envelope'></i></span>
-                    <input type="email" class= "form__input" autofocus placeholder="Enter your email...">
-                    <div class = "form__input-error-message"></div>
+                    <input type="email" class="form__input" autofocus placeholder="Enter your email...">
+                    <div class="form__input-error-message"></div>
                 </div>
                 <div class="input-box">
                     <span class="icon"><i class='bx bx-lock-alt'></i></span>
@@ -65,35 +67,36 @@
                     <a href="#" class="form__link" id="linkCreateAccount">Create account</a>
                 </div>
             </form>
-        <div class="wrapper-createAccount">
-            <form class="form form--hidden" id="createAccount">
-                <h2 class="Create Account">Create Account</h2>
-                <div class="form__message form__message--error"></div>
-                <div class="input-box">
-                    <span class="icon"><i class='bx bx-envelope'></i></span>
-                    <input type="username" id = "signupUsername" class="form__input" autofocus placeholder="Username...">
-                    <div class="form__input-error-message"></div>
+            <div id="wrapper-createAccount" class="wrapper-createAccount">
+                <form class="form form--hidden" id="createAccount">
+                    <h2 class="Create Account">Create Account</h2>
+                    <div class="form__message form__message--error"></div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bx-envelope'></i></span>
+                        <input type="username" id="signupUsername" class="form__input" autofocus
+                            placeholder="Username...">
+                        <div class="form__input-error-message"></div>
                     </div>
-                <div class="input-box">
-                    <span class="icon"><i class='bx bx-envelope'></i></span>
-                    <input type="emailAddress" class="form__input" autofocus placeholder="Email address...">
-                </div>
-                <div class="input-box">
-                    <span class="icon"><i class='bx bx-lock-alt'></i></span>
-                    <input type="password" class= "form__input" autofocus placeholder="Enter your password...">
-                    <div class="form__input-error-message"></div>
-                </div>
-                <div class="input-box">
-                    <span class="icon"><i class='bx bx-lock-alt'></i></span>
-                    <input type="confirmPassword" autofocus placeholder="Confirm password...">
-                    <div class="form__input-error-message"></div>
-                </div>
-                <button type="submit" class="btn" id="login-button">Submit</button>
-                <div class="register-link">
-                <a href="#" class="form__link" id="linkLogin">Already have an Account? Sign in</a>
-                </div>
-            </form>
-        </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bx-envelope'></i></span>
+                        <input type="emailAddress" class="form__input" autofocus placeholder="Email address...">
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bx-lock-alt'></i></span>
+                        <input type="password" class="form__input" autofocus placeholder="Enter your password...">
+                        <div class="form__input-error-message"></div>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bx-lock-alt'></i></span>
+                        <input type="confirmPassword" autofocus placeholder="Confirm password...">
+                        <div class="form__input-error-message"></div>
+                    </div>
+                    <button type="submit" class="btn" id="login-button">Submit</button>
+                    <div class="register-link">
+                        <a href="#" class="form__link" id="linkLogin">Already have an Account? Sign in</a>
+                    </div>
+                </form>
+            </div>
     </section>
 
     <!---Trip Reccommendations--->
@@ -159,9 +162,9 @@
                 <li><a href="#">Services</a></li>
             </ul>
         </div>
-        <div class="newsletter">
+        <div id="newsletter" class="newsletter">
             <h4>Subscribe to Our Newsletter</h4>
-            <form id=subscriotion-form action="#">
+            <form id=subscription-form action="#">
                 <input type="email" placeholder="Enter your email">
                 <button type="submit">Subscribe</button>
             </form>

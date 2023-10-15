@@ -6,26 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Discover Newfoundland's Natural Wonders</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="/icons/account_circle_FILL0_wght400_GRAD0_opsz24.svg" rel='stylesheet'>
 </head>
+
 <body class="about">
     <header class="header">
         <a href="./index.html" class="logo" id="logo">logo</a>
         <nav class="navbar" id="navbar">
-            <a href="#" class ="map" id="map">Map</a>
-            <a href="#" class ="explore" id="explore">Explore</a>
-            <a href="./about.html" class ="about" id="about">About</a>
-            <a href="./contact.html" class ="contact" id="contact">Contact</a>
+            <a id="map" href="#" class="map">Map</a>
+            <a id="explore" href="#" class="explore">Explore</a>
+            <a id="about" href="#" class="about">About</a>
+            <a id="contact" href="#" class="contact">Contact</a>
         </nav>
-        <form action="#" class="search-bar">
-            <input type="text" class="search-input" placeholder="Search...">
+        <form id="search-bar" action="#" class="search-bar">
+            <input type="text" placeholder="Search...">
             <button type="submit"><i class='bx bx-search'></i></button>
         </form>
     </header>
     <script src="script.js"></script>
 
     <!-- Main Content -->
-    <div class="contact-container">
-        <form action="#">
+    <div id="contact-container" class="contact-container">
+        <form id="form-contact" class="form-contact" action="#">
             <div class="input">
                 <label for="fname">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -71,12 +74,13 @@
         </div>
         <div class="newsletter">
             <h4>Subscribe to Our Newsletter</h4>
-            <form id=subscriotion-form action="#">
+            <form id=subscription-form action="#">
                 <input type="email" placeholder="Enter your email">
                 <button type="submit">Subscribe</button>
             </form>
         </div>
     </footer>
+    <script src="./main.js"></script>
 </body>
 
 </html>

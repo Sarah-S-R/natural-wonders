@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register- Discover Newfoundland's Natural Wonders</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="/icons/account_circle_FILL0_wght400_GRAD0_opsz24.svg" rel='stylesheet'>
 </head>
+
 <body class="about">
     <header class="header">
         <a href="./index.html" class="logo" id="logo">logo</a>
         <nav class="navbar" id="navbar">
-            <a href="#" class ="map" id="map">Map</a>
-            <a href="#" class ="explore" id="explore">Explore</a>
-            <a href="./about.html" class ="about" id="about">About</a>
-            <a href="./contact.html" class ="contact" id="contact">Contact</a>
+            <a id="map" href="#" class="map">Map</a>
+            <a id="explore" href="#" class="explore">Explore</a>
+            <a id="about" href="#" class="about">About</a>
+            <a id="contact" href="#" class="contact">Contact</a>
         </nav>
-        <form action="#" class="search-bar">
+        <form id="search-bar" action="#" class="search-bar">
             <input type="text" placeholder="Search...">
             <button type="submit"><i class='bx bx-search'></i></button>
         </form>
     </header>
-    <script src="script.js"></script>
 
     <!-- Main Content -->
     <section class="contact-us">
@@ -43,11 +46,12 @@
                 <li>Interactive maps and itineraries to plan your trips effectively.</li>
             </ul>
             <h2>Heading 2/h2>
-            <p>We're a team of travel enthusiasts, outdoor adventurers, and Newfoundland locals who are deeply
-                passionate about showcasing the beauty of our home province. Our goal is to inspire and assist you in
-                discovering the hidden gems of Newfoundland and Labrador.</p>
+                <p>We're a team of travel enthusiasts, outdoor adventurers, and Newfoundland locals who are deeply
+                    passionate about showcasing the beauty of our home province. Our goal is to inspire and assist you
+                    in
+                    discovering the hidden gems of Newfoundland and Labrador.</p>
         </div>
-        </section>
+    </section>
     <footer class="footer">
         <div class="footer-content">
             <p>
@@ -69,11 +73,13 @@
         </div>
         <div class="newsletter">
             <h4>Subscribe to Our Newsletter</h4>
-            <form id=subscriotion-form action="#">
+            <form id=subscription-form action="#">
                 <input type="email" placeholder="Enter your email">
                 <button type="submit">Subscribe</button>
             </form>
         </div>
     </footer>
+    <script src="./main.js"></script>
 </body>
+
 </html>
